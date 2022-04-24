@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+    &__logo{
+        width: 105px;
+        img{
+            width: 100%;
+        }
+    }
+    &__menu{
+        display: flex;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &__item{
+        padding: 5px 35px 0 0;
+    }
+    &__href{
+        text-decoration: none;
+    }
+
+}

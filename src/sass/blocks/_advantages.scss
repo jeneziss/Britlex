@@ -1,0 +1,44 @@
+.advantages{
+    position: relative;
+    min-height: 1055px;
+    padding: 0 0 125px 0;
+    &__text{
+        font-size: 48px;
+        text-align: center;
+        font-weight: 600;
+    }
+   &__cards{
+       min-height: 895px;
+   }
+   &__card1{
+       min-height: 800px;
+       max-width: 450px;
+   }
+   &__header{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238;
+   }
+   &__subheader{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

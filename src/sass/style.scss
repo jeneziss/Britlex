@@ -1,0 +1,24 @@
+@import 'base/variables';
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/header.scss';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/titles';
