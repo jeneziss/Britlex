@@ -28,8 +28,6 @@
 
 .buttons3{
     position: relative;
-    top: 15px;
-    left: 40px;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
@@ -38,4 +36,25 @@
     height: 60px;
     background: #263238;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-card1{
+    top: 20px;
+    left: 40px;
+}
+
+.button-card2{
+    top: -59px;
+    left: 45px;
+}
+
+.button-card3{
+    top: -35px;
+    left: 45px;
+}
+
+.button-card4{
+    top: -203px;
+    left: 45px;  
 }

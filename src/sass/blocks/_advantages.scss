@@ -1,36 +1,120 @@
 .advantages{
-    position: relative;
+    display: flex;
     min-height: 1055px;
     padding: 0 0 125px 0;
     &__text{
         font-size: 48px;
         text-align: center;
         font-weight: 600;
+        padding-bottom: 30px;
     }
    &__cards{
+       display: flex;
+       justify-content: space-around;
+       align-content: stretch;
+       flex-wrap:wrap;
        min-height: 895px;
-   }
-   &__card1{
-       min-height: 800px;
-       max-width: 450px;
+       max-width: 1330px;
    }
    &__header{
     font-weight: 600;
     font-size: 30px;
-    line-height: 80px;
     color: #263238;
    }
    &__subheader{
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     color: #8F95A5;
    }
 
+   &__card1{
+    position: relative;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    height: 894px;
+    width: 450px;
+    }
 
+   &__cardtext-1{
+    padding-left: 40px;
+    padding-right: 69px;
+}
 
+    &__img-1{
+    position: relative;
+    top: 0px;
+    left: 25px;
+    }
 
+    &__card2{
+    position: relative;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    height: 534px;
+    width: 430px;
+    }
+    &__cardtext-2{
+    position: relative;
+    top: -88px;
+    left: 10px;
+    padding-left: 41px;
+    padding-right: 43px;
+    }
+    &__img-2{
+    position: relative;
+    top: 10px;
+    left: 138px;
+    }
 
+    
+    &__card3{
+    position: relative;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    height: 534px;
+    width: 430px;
+    }
+    &__cardtext-3{
+    position: relative;
+    top: -40px;
+    left: 10px;
+    padding-left: 40px;
+    padding-right: 46px;
+    }
+    &__img-3{
+    position: relative;
+    top: 0px;
+    left: 25px;
+    }
+
+    
+    &__card4{
+    align-self: stretch;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    position: relative;
+    top: -352px;
+    left: 233px;
+    height: 343px;
+    width: 875px;
+    }
+        
+    &__cardtext-4{
+    position: relative;
+    top: -220px;
+    left: 10px;
+    padding-left: 40px;
+    padding-right: 480px;
+    }
+            
+    &__img-4{
+    position: relative;
+    top: 15px;
+    left: 465px;
+    }
+        
+
+    
 
 
 
