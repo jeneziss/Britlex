@@ -34,12 +34,10 @@
     height: 894px;
     width: 450px;
     }
-
    &__cardtext-1{
     padding-left: 40px;
     padding-right: 69px;
-}
-
+    }
     &__img-1{
     position: relative;
     top: 0px;
@@ -87,7 +85,6 @@
     left: 25px;
     }
 
-    
     &__card4{
     align-self: stretch;
     background-color: #F5F5F5;
@@ -95,34 +92,19 @@
     position: relative;
     top: -352px;
     left: 233px;
-    height: 343px;
+    height: 350px;
     width: 875px;
-    }
-        
+    } 
     &__cardtext-4{
     position: relative;
     top: -220px;
     left: 10px;
     padding-left: 40px;
     padding-right: 480px;
-    }
-            
+    }   
     &__img-4{
     position: relative;
     top: 15px;
     left: 465px;
     }
-        
-
-    
-
-
-
-
-
-
-
-
-
-
 }
