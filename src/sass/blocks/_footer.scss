@@ -1,0 +1,33 @@
+.footer{
+    min-height: 125px;
+    &__line{
+        width: 1338px;
+        height: 1px;
+        background: #C4C4C4;
+    }
+    &__logo{
+        position: relative;
+        top: 45px;
+        width: 105px;
+    }
+    &__menu{
+        float: right;
+        width: 630px;
+        height: 50px;
+    }
+    &__items{
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        right: 80px;
+        top: 35px;
+        }
+    &__item{
+        font-weight: 400;
+        font-size: 22px;
+        color: #8F95A5;
+    }
+    a:visited{
+        color: #8F95A5;
+    }
+}

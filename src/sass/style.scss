@@ -10,12 +10,9 @@ ul{
 a{
     text-decoration: none;
 }
-a:visited{
-    color: black;
-}
 
 .container {
-    max-width: 1500px;
+    max-width: 1435px;
     margin: 0 auto;
 }
 @import 'blocks/promo';
@@ -25,3 +22,4 @@ a:visited{
 @import 'blocks/titles';
 @import 'blocks/pricing';
 @import 'blocks/contact';
+@import 'blocks/footer'
