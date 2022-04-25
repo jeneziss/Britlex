@@ -1,0 +1,134 @@
+@media (max-width:992px){
+    .container{
+        padding-left: 75px;
+    }
+    .header{
+        &__menu{
+            position: relative;
+            left: 150px;
+        }
+        &__logo{
+            position: relative;
+            left: 25px;
+            top: 5px;
+        }
+    }
+    .button1{
+        position: relative;
+        right: -275px;
+        width: 160px;
+        height: 50px;
+        border: 2px solid #263238;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+
+    .promo{
+        min-height: 500px;
+        &__logo{
+            position: relative;
+            top: -630px;
+            right: -190px;
+            width: 500px;
+            height: 500px;
+        }
+        &__logo-1{
+            width: 500px;
+            height: 500px;
+        }
+        &_text{
+            padding-left: 20px;
+        }
+        &__title{
+            font-size: 48px;
+            line-height: 64px;
+        }
+        &__light{
+            position: relative;
+            left: 300px;
+            top: -235px;
+            width: 70px;
+            height: 70px;
+        }
+    }
+
+    .button2{
+        width: 292px;
+        height: 80px;
+        font-size: 24px;
+        line-height: 36px;
+        left: -77px;
+        border-radius: 7px;
+    }
+
+    .advantages{
+        &__header{
+          font-size: 22px;
+          line-height: 1px;  
+        }
+        &__subheader{
+            font-size: 14px;
+            line-height: 21px;
+        }
+        &__card1{
+            height: 696px;
+            width: 303px;
+        }
+        &__cardtext-1{
+            padding-right: 60px;
+            padding-bottom: 15px;
+            padding-left: 40px;
+        }
+        &__img-1{
+            width: 260px;
+            height: 260px;
+        }
+        &__card2{
+            width: 302px;
+            height: 441px;
+        }
+        &__cardtext-2{
+            top:50px;
+            left: 0;
+        }
+        &__img-2{
+            width: 205px;
+            height: 205px;
+            left: 90px;
+        }
+        &__card3{
+            width: 302px;
+            height: 441px;
+        }
+        &__card4{
+            width: 616px;
+            height: 241px;
+        }
+    }
+
+    .button-card1{
+        top: 0;
+        left: 36px;
+        width: 196px;
+        height: 57px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
