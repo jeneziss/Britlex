@@ -1,0 +1,83 @@
+.pricing{
+    display: flex;
+    min-height: 704px;
+    padding: 0 0 135px 0;
+    &__title{
+        font-size: 48px;
+        text-align: center;
+        font-weight: 600;
+        padding-bottom: 30px;
+        margin-top: 100px;
+    }
+    &__header{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 48px;
+        color: #263238;
+    }
+    &__subheader{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #8F95A5;
+        padding-right: 10px;
+        padding-bottom: 25px;
+    }
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1330px;
+    }
+    &__card-1{
+        width: 450px;
+        height: 605px;
+        padding-right: 30px;
+    }
+    &__card-2{
+        width: 415px;
+        height: 605px;
+        padding-right: 30px;
+    }
+    &__card-3{
+        width: 415px;
+        height: 605px;
+        padding-right: 15px;
+    }
+    
+    &__img-1{
+        padding-bottom: 25px;
+    }
+
+    &__header-fix{
+        position: relative;
+        top: -35px;
+    }
+    &__btn-text-min{
+        position: relative;
+        top: -5px;
+        left: 5px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #546269;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

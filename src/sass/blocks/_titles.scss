@@ -1,7 +1,7 @@
 .titles{
     display: block;
     min-height: 580px;
-    
+    padding: 0 0 135px 0;
     &__text{
         float:left;
         max-width: 635px;
@@ -20,7 +20,6 @@
         line-height: 30px;
         color: #8F95A5;
     }
-
     &__img{
         float: right;
     }
@@ -52,21 +51,4 @@
     &__mark-4{
         padding-left: 16px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
