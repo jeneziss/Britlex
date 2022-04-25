@@ -1,19 +1,20 @@
 .advantages{
     display: flex;
     min-height: 1055px;
-    padding: 0 0 125px 0;
+    padding: 0 0 250px 0;
     &__text{
         font-size: 48px;
         text-align: center;
         font-weight: 600;
         padding-bottom: 30px;
+        margin-top: 0;
     }
    &__cards{
        display: flex;
        justify-content: space-around;
        align-content: stretch;
        flex-wrap:wrap;
-       min-height: 895px;
+       max-height: 895px;
        max-width: 1330px;
    }
    &__header{

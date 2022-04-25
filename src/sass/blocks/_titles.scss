@@ -1,0 +1,72 @@
+.titles{
+    display: block;
+    min-height: 580px;
+    
+    &__text{
+        float:left;
+        max-width: 635px;
+    }
+    &__header{
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 80px;
+        color: #2A3246;
+    }
+    &__subheader{
+        float: left;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #8F95A5;
+    }
+
+    &__img{
+        float: right;
+    }
+
+    &__marks{
+        max-width: 615px;
+    }
+
+    &__mark-1{
+        display: inline;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 80px;
+        color: #2A3246;
+        padding-right: 81px;
+    }
+    &__mark-2{
+        display: inline;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #8F95A5;
+        padding-right: 80px;
+        padding-left: 18px;
+    }
+    &__mark-3{
+        padding-left: 110px;
+    }
+    &__mark-4{
+        padding-left: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
