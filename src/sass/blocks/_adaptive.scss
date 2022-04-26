@@ -113,22 +113,225 @@
         width: 196px;
         height: 57px;
     }
+}
+
+@media (max-width: 575px){
+    body{
+        width: 575px;
+        margin: 0;
+    }
+    .container{
+        width: 575px;
+        padding: 0;
+    }
+    
+    .promo{
+        min-height: 750px;
+        &__light{
+            display: none;
+        }
+        &_text{
+            position: relative;
+            padding-bottom: 100px;
+            top: 460px;
+            left: -15px;
+        }
+        &__title{
+            text-align: center;
+            font-size: 43px;
+            line-height: 45px;
+        }
+        &__subtitle{
+            text-align: center;
+            font-size: 22px;
+            line-height: 34px;
+            padding-right: 25px;
+        }
+       
+        &__logo{
+            top: -700px;
+            right: -5px;
+            width: 475px;
+            height: 475px;
+        }
+        &__logo-1{
+            width: 475px;
+            height: 475px;
+        }
+    }
+    .button2{
+        position: relative;
+        top: -2px;
+        left: 175px;
+        width: 305px;
+        height: 75px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .pricing{
+        &__cards{
+            display: block;
+            width: auto;
+        }
+    }
+    .container{
+        max-width: 575px;
+        margin: 0 auto;
+    }
+
+    
+    .advantages{
+        &__card1{
+            width: 240px;
+            height: 534px;
+        }
+        &__img-1{
+            width: 205px;
+            left: 15px;
+        }
+        &__card2{
+            width: 240px;
+            height: 534px;
+        }
+        &__img-2{
+            top: 0;
+            left: 0;
+        }
+        &__card3{
+            width: 240px;
+            height: 534px;
+        }
+        &__card4{
+            width: 240px;
+            height: 534px;
+            top: 0;
+            left: 0;
+        }
+        &__img-4{
+            top: 0;
+            left: 0;
+        }
+    }
 
 
 
 
 
+    .header{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: none;
+        justify-content: none;
+        margin: 0;
+        top: 0;
+        right: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        z-index: 3;
+        transition: 0.4s all;
+        &__menu{
+            position: absolute;
+            top: 140px;
+            left: 35px;
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 0;
+            font-size: 30px;
+            line-height: 65px;
 
+        }
+        &__active{
+            left: 0;
+        }
+        &__logo{
+            left: -245px;
+            padding-top: 50px;
+            width: 140px;
+        }
+        &__logo-2{
+            position: absolute;
+            left: 0;
+        }
+        &__item{
+            margin: 3px;
+        }
+    }
+    .footer{
+        &__line{
+            width: 575px;
+        }
+    }
+    .button1{
+        position: absolute;
+        z-index: 3;
+        top: 533px;
+        left: 73px;
+        width: 215px;
+        height: 70px;
+        font-size: 25px;
+    }
 
+    .contact{
+        min-width: 1px;
+    }
 
-
-
-
-
-
-
-
-
-
-
+    
+    
+    
+        
+        
+        
+        
+        
+    .hamburger{
+        z-index: 4;
+        display: block;
+        position: absolute;
+        right: -235px;
+        top: 70px;
+        width: 50px;
+        height: 50px;
+            span{
+                display: block;
+                height: 3px;
+                width: 100%;
+                background-color: #39515E;
+                margin-bottom: 6px;
+                transition: 0.4s all;
+                &:nth-child(3){
+                    width: 35px;
+                }
+                &:nth-child(4){
+                    position: absolute;
+                    top: -550px;
+                }
+            }
+        &__active{
+            span{
+                margin-bottom: -4px;
+                 &:nth-child(1){
+                     width:35px;
+                        transform: translateY(3px) rotate(-45deg);
+                    }
+                    &:nth-child(2){
+                        display: none;
+                    }
+                    &:nth-child(3){
+                        width: 35px;
+                        transform: translateY(3px) rotate(45deg);
+                    }
+                    &:nth-child(4){
+                        position: absolute;
+                        top: 55px;
+                        left: -538px;
+                        width: 550px;
+                        transform: 3s;
+                    }
+                }   
+                 
+        }
+    }
 }
