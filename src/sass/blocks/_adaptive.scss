@@ -116,6 +116,9 @@
 }
 
 @media (max-width: 575px){
+    body{
+        margin-right: 0;
+    }
     .container{
         max-width: 575px;
         margin: 0;
@@ -283,50 +286,106 @@
         top: 98px;
         left: 12px;
     }
-
-
     .titles{
         min-height: 0;
+        padding: 0;
         &__text{
             float: none;
+            min-width: 340px;
+
         }
         &__header{
+            text-align: center;
             font-size: 30px;
             line-height: 80px;
         }
         &__subheader{
+            position: relative;
+            text-align: center;
+            top: 320px;
             font-size: 14px;
             line-height: 21px;
+            padding: 0 5px;
         }
         &__marks{
+            position: relative;
+            top: 335px;
             max-height: 250px;
-            min-width: 415px;
+            max-width: 400px;
+            padding-left: 10px;
         }
         &__mark-1{
+            position: relative;
+            line-height: 0px;
             font-size: 24px;
-            padding-right: 90px;
-            padding-left: 20px;
+            padding: 0;
+
         }
         &__mark-2{
-            font-size: 14px;
+            position: relative;
+            top: 13px;
+            left: 15px;
+            font-size: 12px;
+            padding-right: 35px;
         }
         &__mark-3{
-            padding-left: 0;
-            padding-right: 0;
+            position: relative;
+            left: 200px;
+            padding: 0;
         } 
         &__mark-4{
+            position: relative;
+            left: 100px;
+            padding: 0;
+        }
+        &__mark-5{
+            position: relative;
+            left: 10px;
+            padding: 0;
+        }
+        &__mark-6{
+            position: relative;
+            padding: 0;
+        }
 
-        } 
+
+
+        &__img{
+            margin: 0 auto;
+            padding: 0;
+            float: none;
+            position: relative;
+            top: -120px;
+            width: 340px;
+            height: 340px;
+            margin-top: 10px;
+        }
 
     }
 
 
 
+
+
+
     .pricing{
-        &__cards{
-            display: block;
-            width: auto;
+        &__title{
+            font-size: 30px;
+            max-width: 388px;
         }
+        &__cards{
+            flex-wrap: wrap;
+            width: 325px;
+        }
+        &__img-1{
+            width: 300px;
+        }
+
+
+
+
+
+
     }
 
 
@@ -391,9 +450,13 @@
     }
 
     .contact{
-        min-width: 1px;
+        min-width: 400px;
         &__input{
             width: 250px;
+        }
+        &__text{
+            position: none;
+            width: 300px;
         }
         &__img{
             float: none;
