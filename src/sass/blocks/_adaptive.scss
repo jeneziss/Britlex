@@ -182,11 +182,9 @@
         height: 60px;
         font-size: 16px;
     }   
-    .container-1{
-        max-width: 400px;
-    }
     .advantages{
         max-width: 400px;
+        min-height: 1250px;
         margin: 0;
         padding: 0;
         &__text{
@@ -305,10 +303,12 @@
         padding: 0;
         &__text{
             float: none;
-            min-width: 340px;
+            min-width: 395px;
 
         }
         &__header{
+            position: relative;
+            top: -315px;
             text-align: center;
             font-size: 30px;
             line-height: 80px;
@@ -319,45 +319,56 @@
             text-align: center;
             font-size: 14px;
             line-height: 21px;
-            padding: 0 10px;
+            padding: 0 13px;
         }
         &__marks{
             position: relative;
+            left: 15px;
             max-height: 250px;
-            max-width: 400px;
-            padding-left: 10px;
+            max-width: 320px;
+        }
+        &__mark2{
+            max-width: 320px;
+        }
+        &__mark1{
+            position: relative;
+            max-width: 320px;
+            top: 13px;
         }
         &__mark-1{
             position: relative;
+            left: 30px;
             line-height: 0px;
-            font-size: 24px;
+            font-size: 26px;
             padding: 0;
 
         }
         &__mark-2{
             position: relative;
             top: 13px;
-            left: 15px;
-            font-size: 12px;
-            padding-right: 35px;
+            left: 35px;
+            font-size: 13px;
+            padding: 0px;
         }
         &__mark-3{
             position: relative;
-            left: 200px;
+            left: 215px;
             padding: 0;
         } 
         &__mark-4{
             position: relative;
-            left: 100px;
+            left: 115px;
             padding: 0;
         }
         &__mark-5{
             position: relative;
-            left: 10px;
+            left: 117px;
             padding: 0;
+            padding-right: 5px;
         }
         &__mark-6{
             position: relative;
+            left: 174px;
             padding: 0;
         }
 
@@ -370,6 +381,7 @@
             position: relative;
             width: 340px;
             height: 340px;
+            top: 60px;
         }
 
     }
@@ -425,17 +437,20 @@
             align-items: flex-start;
             flex-direction: column;
             margin: 0;
-            font-size: 30px;
-            line-height: 65px;
+            font-size: 20px;
+            line-height: 30px;
 
         }
         &__active{
             left: 0;
         }
         &__logo{
-            left: -156px;
+            left: -90px;
             padding-top: 50px;
             width: 140px;
+            img{
+                width: 75%;
+            }
         }
         &__logo-2{
             position: absolute;
@@ -453,11 +468,11 @@
     .button1{
         position: absolute;
         z-index: 3;
-        top: 533px;
-        left: 73px;
-        width: 215px;
-        height: 70px;
-        font-size: 25px;
+        top: 393px;
+        left: 47px;
+        width: 195px;
+        height: 55px;
+        font-size: 20px;
     }
 
     .contact{
@@ -485,7 +500,7 @@
         height: 50px;
             span{
                 display: block;
-                height: 3px;
+                height: 2px;
                 width: 100%;
                 background-color: #39515E;
                 margin-bottom: 6px;
@@ -514,9 +529,9 @@
                     }
                     &:nth-child(4){
                         position: absolute;
-                        top: 55px;
-                        left: -538px;
-                        width: 550px;
+                        top: 45px;
+                        left: -311px;
+                        width: 334px;
                         transform: 3s;
                     }
                 }   
