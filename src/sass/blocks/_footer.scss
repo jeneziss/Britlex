@@ -1,5 +1,5 @@
 .footer{
-    min-height: 125px;
+    min-height: 135px;
     &__line{
         width: 1338px;
         height: 1px;
@@ -7,8 +7,12 @@
     }
     &__logo{
         position: relative;
-        top: 45px;
+        top: 22px;
         width: 105px;
+    }
+    &__descr{
+        display: flex;
+        justify-content: space-between;
     }
     &__menu{
         float: right;
@@ -18,9 +22,11 @@
     &__items{
         display: flex;
         align-items: flex-end;
+        justify-content: flex-end;
         position: relative;
-        right: 80px;
-        top: 35px;
+        left: -100px;
+        padding-left: 0;
+
         }
     &__item{
         font-weight: 400;
@@ -29,5 +35,15 @@
     }
     a:visited{
         color: #8F95A5;
+    }
+    &__logo-text{
+        position: inherit;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 54px;
+        color: #000000;
+        span{
+            color: #8F95A5;
+        }
     }
 }

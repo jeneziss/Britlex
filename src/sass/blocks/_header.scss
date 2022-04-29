@@ -28,5 +28,10 @@
     a:visited{
         color: black;
     }
-
+    &__logo-box{
+        display: none;
+        position: relative;
+        width: 105px;
+        left: -15px;
+    }
 }
