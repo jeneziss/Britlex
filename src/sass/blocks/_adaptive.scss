@@ -177,8 +177,8 @@
     .button2{
         position: relative;
         top: -5px;
-        left: 26px;
-        width: 250px;
+        left: 35px;
+        width: 230px;
         height: 60px;
         font-size: 16px;
     }   
@@ -188,8 +188,6 @@
         margin: 0;
         padding: 0;
         &__text{
-            position: relative;
-            left: -18px;
             font-size: 30px;
             line-height: 80px;
             margin-top: 10px;
@@ -392,16 +390,58 @@
 
 
     .pricing{
+        display: block;
+        min-height: 1700px;
+        img{
+            min-width: 325px;
+            height: 291px;
+        }
+
+        &__header{
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &__header-1{
+            margin-top: 0;
+        }
+        &__header-fix{
+            top: -25px;
+        }
+        &__subheader{
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0;
+        }
         &__title{
             font-size: 30px;
             max-width: 388px;
         }
         &__cards{
+            text-align: center;
+            margin: 0 auto;
+            justify-content: center;
             flex-wrap: wrap;
             width: 325px;
+            max-height: 950px;
+        }
+        &__card-1{
+            padding: 0;
+            height: 575px;
+        }
+        &__card-2{
+            padding: 0;
+        }
+        &__card-3{
+            padding: 0;
         }
         &__img-1{
-            width: 300px;
+            width: 314px;
+            padding: 0;
+        }
+
+        &__btn-text-min{
+            font-size: 16px;
+            line-height: 24px;
         }
 
 
@@ -409,6 +449,13 @@
 
 
 
+    }
+    .button4{
+        border-radius: 5px;
+        width: 205px;
+        height: 45px;
+        font-size: 22px;
+        line-height: 33px;
     }
 
 
@@ -490,54 +537,6 @@
             height: 400px;
         }
     }   
-    .hamburger{
-        z-index: 4;
-        display: block;
-        position: absolute;
-        right: 35px;
-        top: 70px;
-        width: 30px;
-        height: 50px;
-            span{
-                display: block;
-                height: 2px;
-                width: 100%;
-                background-color: #39515E;
-                margin-bottom: 6px;
-                transition: 0.4s all;
-                &:nth-child(3){
-                    width: 15px;
-                }
-                &:nth-child(4){
-                    position: absolute;
-                    top: -550px;
-                }
-            }
-        &__active{
-            span{
-                margin-bottom: -4px;
-                 &:nth-child(1){
-                     width:35px;
-                        transform: translateY(3px) rotate(-45deg);
-                    }
-                    &:nth-child(2){
-                        display: none;
-                    }
-                    &:nth-child(3){
-                        width: 35px;
-                        transform: translateY(3px) rotate(45deg);
-                    }
-                    &:nth-child(4){
-                        position: absolute;
-                        top: 45px;
-                        left: -311px;
-                        width: 334px;
-                        transform: 3s;
-                    }
-                }   
-                 
-        }
-    }
     
     .footer{
         max-width: 400px;
