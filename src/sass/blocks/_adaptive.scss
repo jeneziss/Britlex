@@ -126,6 +126,8 @@
     }
     .promo{
         min-height: 550px;
+        max-width: 400px;
+        margin: 0;
         &__light{
             display: none;
         }
@@ -135,12 +137,16 @@
             top: 260px;
             left: 23px;
             width: 350px;
-            margin-right: 0;
+            margin: 0 auto;
             padding-left: 0;
             padding-bottom: 0;
             height: 0;
+            float: none;
         }
         &__title{
+            max-width: 273px;
+            position: relative;
+            left: 15px;
             text-align: center;
             font-size: 30px;
             line-height: 35px;
@@ -148,8 +154,10 @@
             padding-bottom: 15px;
         }
         &__subtitle{
+            position: relative;
+            left: -22px;
             text-align: center;
-            font-size: 14px;
+            font-size: 13px;
             line-height: 20px;
             padding-right: 0;
         }
@@ -157,24 +165,30 @@
         &__logo{
             float: none;
             top: -50px;
-            width: 424px;
-            height: 424px;
-            right: -4px;
+            width: 350px;
+            height: 350px;
+            right: -25px;
         }
         &__logo-1{
-            width: 390px;
+            width: 350px;
             height: 311px;
         }
     }
     .button2{
         position: relative;
         top: -5px;
-        left: 50px;
+        left: 26px;
         width: 250px;
         height: 60px;
         font-size: 16px;
     }   
+    .container-1{
+        max-width: 400px;
+    }
     .advantages{
+        max-width: 400px;
+        margin: 0;
+        padding: 0;
         &__text{
             position: relative;
             left: -18px;
@@ -187,7 +201,7 @@
             padding-top: 0;
         }
         &__cards{
-            width: 420px;
+            width: 400px;
             justify-content: normal;
         }
         &__card1{
@@ -301,10 +315,11 @@
         }
         &__subheader{
             position: relative;
+            left: -8px;
             text-align: center;
             font-size: 14px;
             line-height: 21px;
-            padding: 0 5px;
+            padding: 0 10px;
         }
         &__marks{
             position: relative;
