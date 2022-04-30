@@ -1,5 +1,4 @@
 .promo{
-    position: relative;
     min-height: 775px; 
     padding: 101px 0 30px 0;
     align-items: center;
@@ -34,5 +33,11 @@
         position: relative;
         top: -325px;
         left: 340px;
+    }
+    &__btn{
+        float: left;
+        position: relative;
+        left: -695px;
+        top: -95px;
     }
 }

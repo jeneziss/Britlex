@@ -1,7 +1,5 @@
 @media (max-width:992px){
-    .container{
-        padding-left: 75px;
-    }
+
     .header{
         &__menu{
             position: relative;
@@ -129,57 +127,60 @@
         min-height: 550px;
         max-width: 400px;
         margin: 0;
-        padding-top: 70px;
+        padding-top: 0px;
+        padding-bottom: 0;
         &__light{
             display: none;
         }
         &_text{
-            position: relative;
             padding-bottom: 100px;
-            top: 260px;
-            left: 23px;
             width: 350px;
+            height: 90px;
             margin: 0 auto;
             padding-left: 0;
             padding-bottom: 0;
-            height: 0;
             float: none;
         }
         &__title{
-            max-width: 273px;
-            position: relative;
-            left: 15px;
+            max-width: none;
+            width: 340px;
             text-align: center;
             font-size: 30px;
             line-height: 35px;
-            margin: 0;
+            margin: 0 auto;
             padding-bottom: 15px;
         }
         &__subtitle{
-            position: relative;
-            left: -22px;
             text-align: center;
             font-size: 13px;
             line-height: 20px;
-            padding-right: 0;
+            padding: 0 10px;
         }
        
         &__logo{
+            position: unset;
+            margin: 0 auto;
             float: none;
             top: -50px;
             width: 350px;
-            height: 350px;
+            height: 300px;
             right: -25px;
         }
         &__logo-1{
             width: 350px;
             height: 311px;
         }
+        &__btn{
+            display: flex;
+            justify-content: center;
+            float: none;
+            margin: 0 auto;
+            width: 300px;
+            top: 70px;
+            left: 1px;
+        }
     }
     .button2{
-        position: relative;
-        top: -5px;
-        left: 35px;
         width: 230px;
         height: 60px;
         font-size: 16px;
@@ -385,6 +386,8 @@
     .pricing{
         display: block;
         min-height: 1700px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         img{
             min-width: 325px;
             height: 291px;
@@ -406,6 +409,7 @@
             padding: 0;
         }
         &__title{
+            margin-top: 0;
             font-size: 30px;
             max-width: 388px;
         }
@@ -447,30 +451,34 @@
         font-size: 22px;
         line-height: 33px;
     }
+    .btn-fix-2{
+        margin-top: 18px;
+    }
+
 
     .contact{
-        padding-bottom: 0;
-        padding-top: 75px;
+        padding-bottom: 50px;
+        padding-top: 0px;
         max-height: 750px;
         min-width: 400px;
         &__input{
             width: 250px;
         }
         &__text{
-            position: relative;
-            width: 300px;
-            top: -205px;
+            position: unset;
             text-align: center;
+            margin: 0 auto;
         }
         &__img{
             float: none;
-            width: 300px;
-            height: 400px;
+            width: 320px;
+            height: 320px;
         }
         &__header{
-            position: relative;
-            top: -280px;
+            width: none;
+            position: unset;
             font-size: 30px;
+            margin-bottom: 0;
         }
         &__subheader{
             padding-right: 0;
@@ -484,6 +492,7 @@
         }
         &_img-box{
             width: 305px;
+            height: 300px;
             margin: 0 auto;
         }
 
@@ -600,11 +609,6 @@
             margin: 3px;
         }
     }
-    .footer{
-        &__line{
-            width: 575px;
-        }
-    }
     .button1{
         position: absolute;
         z-index: 3;
@@ -616,8 +620,150 @@
     }      
     .footer{
         max-width: 400px;
+        min-height: 95px;
+        padding-right: 15px;
         &__line{
             width: 400px;
+        }
+    }
+}
+
+@media (max-width: 375px){
+    body{
+        margin: 0;
+    }
+    .container{
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    .header{
+        &__logo{
+            top: 9px;
+        }
+        &__logo-box{
+            left: 30px;
+            top: 15px;
+        }
+    }
+    .button1{
+        top: 375px;
+    }
+    .promo{
+        padding-top: 0px;
+        &__title{
+            position: unset;
+            max-width: none;
+        }
+        &_text{
+            margin: 0 auto;
+            height: 150px;
+            padding-bottom: 10px;
+        }
+        &__subtitle{
+            left: -5px;
+        }
+        &__logo{
+            right: -20px;
+        }
+        &__btn{
+            position: unset;
+        }
+    }
+    .button2{
+        left: 50px;
+    }
+    .advantages{
+        
+        &__header{
+            text-align: center;
+            font-size: 23px;
+        }
+        &__subheader{
+            text-align: center;
+            font-size: 13px;
+        }
+        &__cards{
+            justify-content: center;
+            min-height: 2000px;
+            width: 375px;
+            max-width: 375px;
+        }
+        &__card1{
+            width: 280px;
+            height: 550px;
+            margin: 0;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        &__cardtext-1{
+            padding: 0 20px;
+        }
+        &__img-1{
+            width: 214px;
+            height: 214px;
+            left: 35px;
+        }
+        &__card2{
+            width: 280px;
+            height: 415px;
+            margin-right: 0;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        &__cardtext-2{
+            padding-left: 20px;
+            padding-right: 15px;
+        }
+        &__img-2{
+            width: 204px;
+            height: 204px;
+            left: 38px;
+        }
+
+        &__card3{
+            width: 280px;
+            height: 415px;
+            margin: 0;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        &__cardtext-3{
+            padding-left: 20px;
+            padding-right: 15px;
+        }
+        &__img-3{
+            width: 236px;
+            height: 157px;
+            left: 25px;
+        }
+
+        &__card4{
+            width: 280px;
+            height: 400px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        &__img-4{
+            width: 232px;
+            height: 154px;
+            top: 25px;
+            left: 22px;
+        }
+        .button-card1{
+            left: 65px;
+        }
+
+        .button-card2{
+            top: 0;
+            left: 65px;
+        }
+        .button-card3{
+            top: 45px;
+            left: 65px;
+        }
+        .button-card4{
+            top: 23px;
+            left: 65px;
         }
     }
 
@@ -626,15 +772,21 @@
 
 
 
-
-
-
-
-
-
-
-
+    .titles{
+        &__text{
+            min-width: 350px;
+        }
+    }
+    .contact{
+        min-width: 350px;
+    }
+    .footer{
+        max-width: 360px;
+        min-height: 100px;
+        &__line{
+            width: 350px;
+        }
+    }
 
 
 }
-
