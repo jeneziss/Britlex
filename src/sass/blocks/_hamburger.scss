@@ -1,4 +1,4 @@
-@media(max-width: 575px){
+@media(max-width: 425px){
 .hamburger{
     z-index: 4;
     display: block;
@@ -67,4 +67,30 @@
     }
     }
 }
+}
+@media (max-width: 320px){
+    .hamburger{
+        top: 60px;
+        &__active{
+            top: 70px;
+            right: 50px;
+            span{
+                &:nth-child(1){
+                    width: 25px;
+                    transform: translateY(2px) rotate(-45deg);
+                }
+                &:nth-child(3){
+                    width: 25px;
+                    transform: translateY(3px) rotate(45deg);
+                }
+                &:nth-child(4){
+                position: absolute;
+                top: 35px;
+                left: -196px;
+                width: 220px;
+                height: 1px;
+            }
+        }
+        }
+    }
 }

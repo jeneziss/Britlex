@@ -113,20 +113,19 @@
     }
 }
 
-@media (max-width: 575px){
+@media (max-width: 425px){
     body{
-        margin-right: 0;
-        margin-bottom: 0;
+        margin: 8px;
     }
     .container{
-        max-width: 575px;
-        margin: 0;
+        max-width: 425px;
+        margin: 0 auto;
         padding: 0;
     }
     .promo{
         min-height: 550px;
         max-width: 400px;
-        margin: 0;
+        margin: 0 auto;
         padding-top: 0px;
         padding-bottom: 0;
         &__light{
@@ -161,10 +160,8 @@
             position: unset;
             margin: 0 auto;
             float: none;
-            top: -50px;
             width: 350px;
             height: 300px;
-            right: -25px;
         }
         &__logo-1{
             width: 350px;
@@ -186,7 +183,7 @@
         font-size: 16px;
     }   
     .advantages{
-        max-width: 400px;
+        max-width: 425px;
         min-height: 1250px;
         margin: 0;
         padding: 0;
@@ -200,15 +197,13 @@
             padding-top: 0;
         }
         &__cards{
-            width: 400px;
-            justify-content: normal;
+            width: 390px;
+            justify-content: space-around;
         }
         &__card1{
             width: 180px;
             height: 590px;
             margin-bottom: 15px;
-            margin-right: 10px;
-            margin-left: 15px;
         }
         &__cardtext-1{
             padding: 0 10px;
@@ -222,7 +217,6 @@
         &__card2{
             width: 180px;
             height: 590px;
-            margin-right: 10px;
         }
         &__cardtext-2{
             top: -9px;
@@ -237,8 +231,6 @@
         &__card3{
             width: 180px;
             height: 505px;
-            margin-right: 10px;
-            margin-left: 15px;
         }
         &__cardtext-3{
             top: 35px;
@@ -300,6 +292,7 @@
         left: 12px;
     }
     .titles{
+        margin: 0 auto;
         min-height: 0;
         padding: 0;
         &__text{
@@ -315,8 +308,6 @@
             line-height: 80px;
         }
         &__subheader{
-            position: relative;
-            left: -8px;
             text-align: center;
             font-size: 14px;
             line-height: 21px;
@@ -377,8 +368,8 @@
             padding: 0;
             float: none;
             position: relative;
-            width: 340px;
-            height: 340px;
+            width: 320px;
+            height: 320px;
             top: 60px;
         }
 
@@ -386,11 +377,17 @@
     .pricing{
         display: block;
         min-height: 1700px;
+        max-height: 1550px;
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 0px;
         img{
             min-width: 325px;
             height: 291px;
+        }
+        &__text{
+            width: 300px;
+            margin: 0 auto;
+            padding-bottom: 20px;
         }
 
         &__header{
@@ -409,28 +406,39 @@
             padding: 0;
         }
         &__title{
+            text-align: center;
             margin-top: 0;
             font-size: 30px;
             max-width: 388px;
+            margin: 0;
         }
         &__cards{
             text-align: center;
-            margin: 0 auto;
-            justify-content: center;
+            justify-content: space-around;
             flex-wrap: wrap;
+            padding-top: 10px;
+            margin: 0 auto;
             width: 325px;
             max-height: 950px;
         }
         &__card-1{
+            img{
+                width: 270px;
+                height: 260px;
+            }
             padding: 0;
-            height: 575px;
+            height: 545px;
         }
         &__card-2{
+            img{
+                width: 270px;
+                height: 200px;
+            }
             padding: 0;
-            height: 575px;
+            height: 480px;
         }
         &__card-3{
-            height: 575px;
+            height: 500px;
             padding: 0;
         }
         &__img-1{
@@ -457,9 +465,11 @@
 
 
     .contact{
-        padding-bottom: 50px;
+        margin: 0 auto;
+        padding-bottom: 40px;
         padding-top: 0px;
         max-height: 750px;
+        min-height: 685px;
         min-width: 400px;
         &__input{
             width: 250px;
@@ -470,9 +480,12 @@
             margin: 0 auto;
         }
         &__img{
+            position: unset;
             float: none;
-            width: 320px;
-            height: 320px;
+            top: 5px;
+            left: 0;
+            width: 290px;
+            height: 300px;
         }
         &__header{
             width: auto;
@@ -481,8 +494,8 @@
             margin-bottom: 0;
         }
         &__subheader{
-            padding-right: 0;
-            font-size: 16px;
+            padding: 0 15px;
+            font-size: 15px;
         }
         &__input{
             margin: 0;
@@ -563,6 +576,9 @@
         background-color: white;
         z-index: 3;
         transition: 0.4s all;
+        a:visited{
+            color: black;
+        }
         &__logo-box{
             display: block;
             position: relative;
@@ -662,9 +678,7 @@
         &__subtitle{
             left: -5px;
         }
-        &__logo{
-            right: -20px;
-        }
+
         &__btn{
             position: unset;
         }
@@ -766,15 +780,12 @@
             left: 65px;
         }
     }
-
-
-
-
-
-
     .titles{
         &__text{
             min-width: 350px;
+        }
+        &__mark-6{
+            left: 167px;
         }
     }
     .contact{
@@ -786,7 +797,265 @@
         &__line{
             width: 350px;
         }
+        &__items{
+            padding-left: 15px;
+        }
+        &__item{
+            font-size: 9px;
+        }
+        &__logo{
+            padding-left: 15px;
+        }
     }
+}
+
+@media (max-width: 320px){
+    .container{
+        max-width: 315px;
+        margin: 0 auto;
+    }
+
+    .promo{
+        &__logo{
+            width: 265px;
+            height: 265px;
+        }
+        &__logo-1{
+            width: 265px;
+            height: 255px;
+        }
+        &_text{
+            width: 300px;
+        }
+        &__title{
+            font-size: 24px;
+            width: 300px;
+        }
+    }
+
+    .advantages{
+        max-width: 320px;
+        &__text{
+            font-size: 24px;
+        }
+        &__header{
+            font-size: 21px;
+        }
+        &__subheader{
+            font-size: 12px;
+        }
+        &__cards{
+            width: 280px;
+        }
+        &__card1{
+            margin: 0;
+        }
+        &__card2{
+            margin: 0;
+        }
+        &__card3{
+            margin: 0;
+        }
+        &__card4{
+            margin: 0;
+        }
+        &__img-1{
+            left: 32px;
+        }
+        .button-card1{
+            font-size:13px;
+            font-weight: 300;
+        }
+        .button-card2{
+            font-size:13px;
+            font-weight: 300;
+        }
+        .button-card3{
+            font-size:13px;
+            font-weight: 300;
+        }
+    }
+    .titles{
+        &__text{
+            min-width: 300px;
+        }
+        &__header{
+            margin: 0 auto;
+            width: 250px;
+            top: -265px;
+            font-size: 24px;
+        }
+        &__subheader{
+            font-size: 12px;
+        }
+        &__img{
+            width: 280px;
+            height: 315px;
+        }
+        &__marks{
+            position: unset;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        &__mark-1{
+            font-size: 21px;
+        }
+        &__mark-2{
+            font-size: 11px;
+        }
+        &__mark-3{
+            left: 155px;
+        }
+        &__mark-4{
+            left: 93px;
+        }
+        &__mark-5{
+            left: 90px;
+        }
+        &__mark-6{
+            left: 113px;
+        }
+    }
+    .pricing{
+        min-height: 1560px;
+        &__header{
+            font-size: 22px;
+        }
+        &__subheader{
+            font-size: 13px;
+        }
+        img{
+            min-width: 280px;
+        }
+        &__title{
+            font-size: 24px;
+        }
+        &__cards{
+            width: 280px;
+        }
+        &__card-1{
+            width: 280px;
+            img{
+                width: 250px;
+                height: 250px;
+            }
+        }
+        &__card-2{
+            height: 444px;
+        }
+
+        &__card-2{
+            width: 280px;
+            img{
+                width: 257px;
+                height: 200px;
+            }
+        }
+        &__card-3{
+            width: 280px;
+            img{
+                width: 250px;
+                height: 200px;
+            }
+        }
+        .button4{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            width: 170px;
+            height: 41px;
+            font-size: 20px;
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+    
+    .contact{
+        min-height: 670px;
+        padding-bottom: 0;
+        min-width: 300px;
+        &__header{
+            font-size: 24px;
+        }
+        &__img{
+            height: 270px;
+        }
+        &_img-box{
+            height: 275px;
+        }
+        &__subheader{
+            font-size: 12px;
+        }
+        &__input{
+            font-size: 12px;
+            padding: 25px;
+            height: 60px;
+            margin: 0;
+        }
+        .button5{
+            font-size: 14px;
+            font-weight: 400;
+            height: 60px;
+            width: 300px;
+        }
+    }
+
+    .header{
+        &__logo{
+            left: -67px;
+            width: 110px;
+            top: 11px;
+        }
+        &__logo-box{
+            left: 30px;
+            top: 25px;
+        }
+        &__menu{
+            left: 10px;
+            font-weight: 400;
+            top: 115px;
+        }
+        &__item{
+            margin: 0;
+        }
+    }
+    .button1{
+        top: 310px;
+    }
+    .footer{
+        padding-right: 0;
+        &__logo-text{
+            margin: 0 auto;
+            margin-top: 10px;
+            width: 100px;
+        }
+        &__descr{
+            flex-direction: column;
+        }
+        &__line{
+            margin: 0 auto;
+            width: 290px;
+        }
+        &__items{
+            margin: 0;
+            align-items: baseline;
+            justify-content: center;
+        }
+        &__item{
+            font-size: 7px;
+        }
+        &__items{
+            padding-right: 11px;
+        }
+    }
+
+
+
+
+
+
+
+
 
 
 }
