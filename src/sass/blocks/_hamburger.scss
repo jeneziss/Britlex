@@ -1,4 +1,4 @@
-@media(max-width: 575px){
+@media(max-width: 768px){
     .hamburger{
         z-index: 4;
         display: block;
@@ -24,7 +24,7 @@
             }
         &__active{
             position: fixed;
-            right: 35px;
+            right: 417px;
             span{
                 margin-bottom: -4px;
                  &:nth-child(1){
@@ -49,6 +49,57 @@
         }
     }
     }
+    @media(max-width: 575px){
+        .hamburger{
+            z-index: 4;
+            display: block;
+            position: absolute;
+            right: 35px;
+            top: 70px;
+            width: 30px;
+            height: 50px;
+                span{
+                    display: block;
+                    height: 2px;
+                    width: 100%;
+                    background-color: #39515E;
+                    margin-bottom: 6px;
+                    transition: 0.4s all;
+                    &:nth-child(3){
+                        width: 15px;
+                    }
+                    &:nth-child(4){
+                        position: absolute;
+                        top: -550px;
+                    }
+                }
+            &__active{
+                position: fixed;
+                right: 35px;
+                span{
+                    margin-bottom: -4px;
+                     &:nth-child(1){
+                         width:35px;
+                            transform: translateY(3px) rotate(-45deg);
+                        }
+                        &:nth-child(2){
+                            display: none;
+                        }
+                        &:nth-child(3){
+                            width: 35px;
+                            transform: translateY(3px) rotate(45deg);
+                        }
+                        &:nth-child(4){
+                            position: absolute;
+                            top: 45px;
+                            left: -311px;
+                            width: 334px;
+                        }
+                    }   
+                     
+            }
+        }
+        }
 @media(max-width: 425px){
 .hamburger{
     z-index: 4;

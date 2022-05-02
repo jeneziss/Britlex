@@ -1,5 +1,4 @@
 @media (max-width:992px){
-
     .header{
         &__menu{
             position: relative;
@@ -21,7 +20,6 @@
         border-radius: 5px;
         font-size: 18px;
     }
-
     .promo{
         min-height: 500px;
         &__logo{
@@ -113,6 +111,356 @@
     }
 }
 
+@media (max-width: 768px){
+    .container{
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .header{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: none;
+        justify-content: none;
+        margin: 0;
+        top: 0;
+        right: 0;
+        left: -100%;
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        z-index: 3;
+        transition: 0.3s all;
+        a:visited{
+            color: black;
+        }
+        &__logo-box{
+            display: block;
+            position: relative;
+            width: 105px;
+            left: 40px;
+            top: 40px;
+        }
+        &__logo-text{
+            font-weight: 400;
+            font-size: 33px;
+            line-height: 45px;
+            color: #000000;
+            span{
+                color: #8F95A5;
+            }
+        }
+        &__menu{
+            position: absolute;
+            top: 140px;
+            left: 35px;
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 0;
+            font-size: 20px;
+            line-height: 30px;
+
+        }
+        &__active{
+            left: 0;
+            box-shadow: 0 0 0 9999px rgba(0,0,0, 0.3);
+        }
+        &__logo{
+            left: -90px;
+            padding-top: 50px;
+            width: 140px;
+            img{
+                width: 75%;
+            }
+        }
+        &__logo-2{
+            position: absolute;
+            left: 0;
+        }
+        &__item{
+            margin: 3px;
+        }
+    }
+    .button1{
+        position: relative;
+        top: -170px;
+        right: 50px;
+    }
+
+    .promo{
+        min-height: 440px;
+        padding-top: 60px;
+        &__header{
+            font-size: 36px;
+        }
+        &__subheader{
+            font-size: 16px;
+        }
+        &__light{
+            left: 195px;
+        }
+        &__logo{
+        position: unset;
+        width: 352px;
+        height: 352px;
+        }
+        &__logo-1{
+        width: 352px;
+        height: 352px;
+        }
+        &_text{
+            width: 300px;
+            height: 270px;
+            padding-left: 40px;
+            float: none;
+        }
+        &__title{
+            width: 270px;
+            font-size: 36px;
+            line-height: 45px;
+        }
+        &__subtitle{
+            font-size: 16px;
+            line-height: 24px;
+            padding-right: 0;
+        }
+        &__btn{
+            position: unset;
+            padding-left: 30px;
+        }
+    }
+    .button2{
+        width: 235px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .advantages{
+        display: block;
+        min-height: 765px;
+        padding-bottom: 30px;
+        &__text{
+            font-size: 30px;
+            list-style: 80px;
+        }
+        &__cards{
+            max-width: 750px;
+            max-height: 685px;
+        }
+        
+        &__card1{
+            width: 224px;
+            height: 662px;
+        }
+        &__cardtext-1{
+            padding-right: 47px;
+            padding-bottom: 0;
+            padding-left: 26px;
+        }
+        .button-card1{
+            left: 23px;
+        }
+        &__img-1{
+            left: 7px;
+            width: 214px;
+            height: 214px;
+        }
+        &__card2{
+            width: 227px;
+            height: 441px;
+        }
+        &__cardtext-2{
+            top: -15px;
+            padding-left: 26px;
+            padding-right: 20px;
+        }
+        .button-card2{
+            top: -12px;
+            left: 22px;
+        }
+        &__img-2{
+            left: 15px;
+            width: 200px;
+            height: 200px;
+        }
+        &__card3{
+            width: 227px;
+            height: 441px;
+        }
+        &__img-3{
+            left: 7px;
+            top: 25px;
+            width: 216px;
+            height: 144px;
+        }
+        &__cardtext-3{
+            padding-left: 30px;
+            padding-right: 25px;
+            top: 40px;
+            left: 0;
+        }
+        .button-card3{
+            top: 44px;
+            left: 25px;
+        }
+        &__card4{
+            top: -210px;
+            left: 125px;
+            width: 462px;
+            height: 210px;
+        }
+        &__img-4{
+            left: 250px;
+            width: 202px;
+            height: 134px;
+        }
+        &__cardtext-4{
+            top: -125px;
+            left: 25px;
+            padding: 0;
+            width: 250px;
+        }
+        .button-card4{
+            top: -125px;
+            left: 25px;
+        }
+    }
+    .buttons3{
+        width: 178px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .titles{
+        min-height: 400px;
+        padding-bottom: 60px;
+        &__img{
+            width: 295px;
+            height: 295px;
+        }
+        &__text{
+            padding-left: 15px;
+            float: none;
+            max-width: 360px;
+        }
+        &__header{
+            font-size: 30px;
+        }
+        &__subheader{
+            font-size: 14px;
+            line-height: 21px;
+        }
+        &__mark1{
+            position: relative;
+            top: -20px;
+        }
+        &__mark-1{
+            font-size: 22px;
+            line-height: 80px;
+            padding: 0 25px;
+        }
+        &__mark-2{
+            font-size: 13px;
+            line-height: 20px;
+            padding: 0 26px;
+        }
+        &__mark-3{
+            padding-left: 60px;
+        }
+        &__mark-4{
+            padding: 0 37px;
+        }
+        &__mark2{
+            position: relative;
+            top: -40px;
+        }
+
+
+
+    }
+    .pricing{
+        display: block;
+        min-height: 600px;
+
+        &__header-fix{
+            top: -18px;
+
+        }
+        &__title{
+            margin-top: 0;
+            font-size: 30px;
+            line-height: 80px;
+        }
+        &__header{
+            margin-bottom: 0;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        &__subheader{
+            margin-bottom: 0;
+            margin-top: 5px;
+            padding-bottom: 0;
+            font-size: 12px;
+            line-height: 21px;
+        }
+        &__cards{
+            margin: 0 auto;
+            width: 720px;
+            padding-left: 15px;
+        }
+        &__card-1{
+            img{
+                width: 197px;
+                height: 197px;
+            }
+            width: 208px;
+            height: 450px;
+        }
+        &__card-2{
+            img{
+                width: 219px;
+                height: 168px;
+            }
+            width: 208px;
+            height: 450px;
+        }
+        &__card-3{
+            img{
+                width: 210px;
+                height: 210px;
+            }
+            width: 208px;
+            height: 450px;
+        }
+        &__btn-text-min{
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .button4{
+        margin-top: 22px;
+        font-size: 22px;
+        line-height: 33px;
+        width: 205px;
+        height: 45px;
+    }
+    .btn-fix-1{
+        margin-top: 61px;
+    }
+    .btn-fix-2{
+        margin-top: 14px;
+    }
+    .contact{
+        min-width: 700px;
+    }
+
+    .footer{
+        &__line{
+            width: 760px;
+        }
+    }
+
+}
 @media (max-width: 425px){
     body{
         margin: 8px;
@@ -462,8 +810,6 @@
     .btn-fix-2{
         margin-top: 18px;
     }
-
-
     .contact{
         margin: 0 auto;
         padding-bottom: 40px;
@@ -516,7 +862,6 @@
         width: 160px;
         font-size: 16px;
     }
-
     .footer{
         min-height: 80px;
         &__objects{
@@ -559,8 +904,6 @@
             }
         }
     }
-
-
     .header{
         display: flex;
         position: fixed;
@@ -643,7 +986,6 @@
         }
     }
 }
-
 @media (max-width: 375px){
     body{
         margin: 0;
